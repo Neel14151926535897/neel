@@ -15,6 +15,7 @@ if succsesful run <b>npm install nodejs</b>
     "nodejs": "^0.0.0",
     "type":"module"
   }
-} in package.json and run node server.js "public"
+} in package.json and run node server.js "public" then click on windows  and right clik on note pad and select run as administator and open c:/windows\system32\etc\hosts and add 127.0.01  and type your domain next to it run node server.js again
+
 </p>
 </html>
