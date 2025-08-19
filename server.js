@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Folder from command line or default to "public"
-const folder = process.argv.slice(2).join(" ") || "Qr code genorator";
+const folder = process.argv.slice(2).join(" ") ;
 const folderPath = path.join(__dirname, folder);
 
 // Check folder exists
@@ -38,6 +38,6 @@ app.use((req, res) => {
 // Use port 80 (requires admin)
 const PORT = 80;
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Serving folder "${folder}" at http://neel.fun/`);
+  console.log(`Serving folder "${folder}" at whatever domainyou have`);
 });
 
